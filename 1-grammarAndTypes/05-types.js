@@ -108,3 +108,5 @@ console.log(stepsToBrushTeeth);
 console.log(stepsToBrushTeeth[0]);
 console.log(stepsToBrushTeeth[5]);
 console.log(typeof stepsToBrushTeeth);
+
+// testing git user for commits & pushes

@@ -75,3 +75,36 @@ console.log(typeof third);
 let age = 28;
 let string = `my age is: ${age}`;
 console.log(string);
+
+// Objects
+/*
+What is an object?
+
+an object is a container that stores property names and their values (it can hold multiple values)
+
+denoted by {}
+Have keys and values -- color (key): 'blue' (value), separated by with a colon, each key-value pair is separated with a comma
+ */
+let hulk = {
+    color: 'green',
+    age: 42,
+    isStrong: true
+};
+console.log(hulk);
+console.log(hulk.age);
+console.log(hulk.color);
+console.log(typeof hulk);
+
+// Arrays
+/*
+ Arrays store multiple values in an ordered way. They, too, hold multiple data types
+
+ denoted by []
+ has values of ('blue', 'green', 'yellow'), separated by commas
+ */
+var stepsToBrushTeeth = ['uncap toothpaste', 'squeeze toothpaste', 'rinse brush', 'brush', 'clean toothbrush'];
+// array indexing starts at 0 -- stepsToBrushTeeth has 0-4
+console.log(stepsToBrushTeeth);
+console.log(stepsToBrushTeeth[0]);
+console.log(stepsToBrushTeeth[5]);
+console.log(typeof stepsToBrushTeeth);

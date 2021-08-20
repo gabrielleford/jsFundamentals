@@ -1,10 +1,18 @@
-let age = 17;
-if(age >= 25) {
-    console.log('You can rent a car.');
-} else if(age < 25 && age >= 21) {
-    console.log('You can have a beer.');
-} else if(age < 21 && age >= 18) {
-    console.log('You can vote');
+/*
+ELSE IF
+
+2-controlFlowAndErrorHandling
+    03-elseIf.js
+*/
+
+// if-elseif statements can be chained
+let age = 23;
+if (age >= 25) {
+    console.log('Yay! You can rent a car');
+} else if (age >= 21) {
+    console.log('Yay! You can drink!');
+} else if (age >= 18) {
+    console.log('Yay! you can vote!');
 } else {
-    console.log('You\'re just a kid! Go play with your dollies!');
+    console.log('Sorry, you are too young to do anything fun');
 }

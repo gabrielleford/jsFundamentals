@@ -5,6 +5,7 @@ FOR IN LOOPS
     02-forInLoops.js
  */
 
+// in does not require that the 'thing' you loop through be numbered
 let student = {name: 'Peter', awesome: true, degree: 'javascript', week: 1};
 
 for (item in student) {
